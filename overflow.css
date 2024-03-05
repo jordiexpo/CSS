@@ -1,14 +1,9 @@
 div{
- width: 200px;
- height: 100px;
+ width: 400px;
+ height: 200px;
  background-color: green;
- overflow: hidden;
+ overflow-y: hidden;
 }
 p{
- transform: translateX(60px);
- -webkit-transform: translateX(60px);
- -moz-transform: translateX(60px);
- -ms-transform: translateX(60px);
- -o-transform: translateX(60px);
- 
+ transform: translatex(20px,-10px)
 }
