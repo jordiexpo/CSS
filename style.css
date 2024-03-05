@@ -48,5 +48,6 @@ tr {
 
 .border{
  border-left-style: double;
- border-bottom-style: double;
+ border-bottom-style: solid;
+ border-width: 3px;
 }
