@@ -1,0 +1,52 @@
+body {
+ background-color: plum;
+}
+
+table {
+ width: 75%;
+ margin: auto;
+ border-spacing: 0;
+ border: solid 3px;
+ border-top-left-radius: 20px; 
+ border-top-right-radius: 20px;
+}
+
+caption {
+ font-weight: bold;
+ margin: auto;
+ background-color: aqua;
+ width: 140px;
+text-align: center;
+}
+
+td, th{
+ padding: 8px;
+ text-align: left;
+ margin:auto
+}
+
+
+.th1{
+ border-top-left-radius: 20px;
+}
+.th3{
+ border-top-right-radius: 20px;
+}
+
+
+tfoot td {
+ font-weight: bold;
+ text-align: center;
+ background-color: aqua;
+}
+
+tr {
+ background-color: blanchedalmond;
+ border-top-left-radius: 20px; 
+ border-top-right-radius: 20px;
+}
+
+.border{
+ border-left-style: double;
+ border-bottom-style: double;
+}
