@@ -1,0 +1,31 @@
+.circle{
+ background-color: greenyellow;
+ border: solid black 2px;
+ border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -moz-border-radius: 11px;
+ -ms-border-radius: 11px;
+ -o-border-radius: 11px;
+ width: 20px;
+ text-align: center;
+ 
+}
+.box{
+ background-color: red;
+ border: solid black 2px;
+}
+.circle-1{
+ position: sticky;
+ top: 50px;
+ left: 50px;
+}
+.circle-2{
+ position: absolute;
+ top: 50px;
+ right: 50px;
+}
+.circle-3{
+ position: absolute;
+ bottom: 50px;
+ left: 50px;
+}
