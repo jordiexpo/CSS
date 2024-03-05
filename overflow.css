@@ -2,4 +2,13 @@ div{
  width: 200px;
  height: 100px;
  background-color: green;
+ overflow: hidden;
+}
+p{
+ transform: translateX(60px);
+ -webkit-transform: translateX(60px);
+ -moz-transform: translateX(60px);
+ -ms-transform: translateX(60px);
+ -o-transform: translateX(60px);
+ 
 }
