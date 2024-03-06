@@ -1,10 +1,11 @@
 body{
- background-color: rgb(95, 169, 26);
+ background-color: rgb(192, 212, 174);
 }
 
 .box-1{
  float: left;
  width: 250px;
+ color: gray;
  
 }
 .box-2{
