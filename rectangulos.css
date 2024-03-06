@@ -1,0 +1,41 @@
+header{
+ background-color: #fe0000;
+border: solid red;
+height: 85px;
+margin: -13px;
+clear: both;
+}
+nav{
+ background-color: #007fff;
+ border: #007fff solid;
+height: 25px;
+margin: -13px;
+clear: both;
+position: relative;
+z-index: 20;
+}
+section{
+ background-color: #fec6c5;
+height: 415px;
+width: 350px;
+float: left;
+position: relative;
+z-index: 10;
+margin-left: -3px;
+}
+aside{
+ background-color: #fe80fe;
+ height: 415px;
+width: 330px;
+float: right;
+position: relative;
+z-index: 10;
+margin-right: -15px;
+}
+footer{
+ background-color: #80ff00;
+ height: 75px;
+ width: 760px;
+ clear: both;
+ margin: -15px;
+}
