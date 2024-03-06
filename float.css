@@ -1,0 +1,20 @@
+body{
+ font-size: 2em;
+ background-color: wheat;
+}
+
+.box{
+ border: solid 2px black;
+ font-size: 90px;
+ text-align: center;
+ 
+}
+.box-1{
+ width:500px;
+ font-size: 4em;
+
+}
+.box-2{
+ width: 50%;
+ font-size: 3em;
+}
