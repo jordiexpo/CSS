@@ -1,0 +1,14 @@
+body{
+ background-color: rgb(95, 169, 26);
+}
+
+.box-1{
+ float: left;
+ width: 250px;
+ 
+}
+.box-2{
+float: right;
+
+
+}
