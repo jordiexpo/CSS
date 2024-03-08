@@ -1,48 +1,76 @@
-body{
+body {
  background-color: wheat;
 }
-.titulo-1{
+
+.titulo-1, .titulo-2{
  font-style: italic;
  font-size: larger;
- margin-bottom: 15px;
-}
-.titulo-2{
- font-style: italic;
- font-size: larger;
- margin-bottom: 15px;
- position: relative;
- bottom: -100px;
- left: -235px;
+ margin-left: 25px;
 }
 
-div{
+.container-1 {
+ display: inline-block;
+ 
+}
+.container-2, .container-3, .container-4, .container-5{
+ display: flex;
+}
+
+.box{
  width: 75px;
  height: 75px;
  border: solid;
- border-radius: 75px;
- -webkit-border-radius: 75px;
- -moz-border-radius: 75px;
- -ms-border-radius: 75px;
- -o-border-radius: 75px;
- margin: top 15px;
+ border-radius: 50%;
+ display: inline-block;
+ margin: 10px;
+
 }
 .box-1{
-background-color: greenyellow;
-float: left;
-
+ background-color: red;
 }
 .box-2{
- background-color: red;
-float:left;
-position: relative;
-left: 13px;
-
+ background-color: greenyellow;
 }
 .box-3{
  background-color: blue;
- float: left;
- position: relative;
- right: -25px;
- 
-
 }
+.titulo-2{
+ float: left;
+ clear: both;
+ margin-top: 25px;
+}
+.circle{
+ width: 75px;
+ height: 75px;
+ border: solid;
+ border-radius: 50%;
+ display: flex;
+ margin: 15px;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
+}
+.plus, .equal{
+ position: relative;
+ bottom: -40px;
+}
+.circle-1, .circle-8{
+ background-color: red;
+}
+.circle-2, .circle-4{
+ background-color: blue;
+}
+.circle-5, .circle-7{
+ background-color: greenyellow;
+}
+.circle-3{
+ background-color: rgb(254, 9, 205);
+}
+.circle-6{
+ background-color: rgb(24, 238, 227);
+}
+.circle-9{
+ background-color: rgb(236, 240, 5);
+}
+
