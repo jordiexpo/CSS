@@ -1,0 +1,73 @@
+@media (width < 320px){
+ body{
+  background-color: red;
+ }
+ body{
+  background-color: orange;
+ }
+ header, nav{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 50px;
+  width: 150px;
+
+ }
+ 
+ section{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px; 
+  margin: 10px;
+ }
+ article{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+ aside{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+ footer{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+}
+
+@media (width < 768px) {
+ body{
+  background-color: orange;
+ }
+ header, nav{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 50px;
+  width: 150px;
+
+ }
+ 
+ section{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px; 
+  margin: 10px;
+ }
+ article{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+ aside{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+ footer{
+  background-color: rgb(218, 146, 12);
+  border: solid;
+  height: 30px;
+ }
+}
+
